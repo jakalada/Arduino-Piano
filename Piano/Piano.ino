@@ -30,14 +30,14 @@ const int speakerPins[keyNums] = {
 };
 
 const int notes[keyNums] = {
+  NOTE_C5,
+  NOTE_D5,
+  NOTE_E5,
+  NOTE_F5,
+  NOTE_G5,
   NOTE_A5,
   NOTE_B5,
-  NOTE_C6,
-  NOTE_D6,
-  NOTE_E6,
-  NOTE_F6,
-  NOTE_G6,
-  NOTE_A6
+  NOTE_C6
 };
 
 // trueの場合はrunManualMode関数を実行
